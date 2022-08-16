@@ -36,7 +36,7 @@ function CommentsForm({ slug }) {
                 setShowSuccessMessage(true)
                 setTimeout(() => {
                     setShowSuccessMessage(false)
-                }, 3000);
+                }, 2000);
             })
     }
     return (
