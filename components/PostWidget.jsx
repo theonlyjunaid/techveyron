@@ -39,7 +39,7 @@ function PostWidget({ categories, slug }) {
                         </Link>
                     </div>
                 </div>
-            ))}
+            )).reverse()}
         </div>
     )
 }

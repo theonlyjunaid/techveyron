@@ -16,9 +16,9 @@ const Index = ({ posts }) => {
         <div className='lg:col-span-8 col-span-1 '>
           {posts.map((post, index) => {
             return (
-              <PostCard post={post.node} key={post.node.title} />
+              <PostCard post={post.node} key={index} />
             )
-          })}
+          }).reverse()}
         </div>
         <div className='lg:col-span-4 col-span-1'>
           <div className='lg:sticky relative top-8'>
